@@ -1,18 +1,17 @@
 {
-  "rewrites": [
-    { "source": "/", "destination": "/index.html" },
-    { "source": "/a-propos-d-eva", "destination": "/apropos.html" },
-    { "source": "/les-soins", "destination": "/lessoins.html" },
-    { "source": "/les-soins-facialites", "destination": "/facialistev2.html" },
-    { "source": "/les-soins-du-corps", "destination": "/corpsv2.html" },
-    { "source": "/les-cours-et-protocoles", "destination": "/cours.html" },
-    { "source": "/reservation", "destination": "/reservationmain.html" },
-    { "source": "/reservation-choix-lieu", "destination": "/reservationmain2.html" },
-    { "source": "/reservation-paris", "destination": "/reservationParis.html" },
-    { "source": "/reservation-bandol", "destination": "/reservationBandol.html" },
-    { "source": "/foire-aux-questions", "destination": "/faq.html" },
-    { "source": "/contact", "destination": "/contact.html" },
-    { "source": "/validation-reservation", "destination": "/validation.html" },
-    { "source": "/mentions-legales", "destination": "/mentions-legales.html" }
+  "redirects": [
+    { "source": "/a-propos-d-eva", "destination": "/apropos.html", "permanent": true },
+    { "source": "/les-soins", "destination": "/lessoins.html", "permanent": true },
+    { "source": "/les-soins-facialites", "destination": "/facialistev2.html", "permanent": true },
+    { "source": "/les-soins-du-corps", "destination": "/corpsv2.html", "permanent": true },
+    { "source": "/les-cours-et-protocoles", "destination": "/cours.html", "permanent": true },
+    { "source": "/reservation", "destination": "/reservationmain.html", "permanent": true },
+    { "source": "/reservation-choix-lieu", "destination": "/reservationmain2.html", "permanent": true },
+    { "source": "/reservation-paris", "destination": "/reservationParis.html", "permanent": true },
+    { "source": "/reservation-bandol", "destination": "/reservationBandol.html", "permanent": true },
+    { "source": "/foire-aux-questions", "destination": "/faq.html", "permanent": true },
+    { "source": "/contact", "destination": "/contact.html", "permanent": true },
+    { "source": "/validation-reservation", "destination": "/validation.html", "permanent": true },
+    { "source": "/mentions-legales", "destination": "/mentions-legales.html", "permanent": true }
   ]
 }
